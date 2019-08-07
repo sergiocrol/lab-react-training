@@ -19,9 +19,39 @@ div.pepe {
 }
 
 img {
-  max-width: 150px;
+  max-width: 200px;
 }
 
 .container{
   background:teal;
+}
+
+.tableDiv {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.table {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profileCard {
+  display: flex;
+  border: 1px solid black;
+}
+
+.profileCard img{
+  width: 300px;
+}
+
+.profileCard section {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileCard section span{
+  font-weight: bold;
 }
